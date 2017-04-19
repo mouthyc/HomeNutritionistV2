@@ -13,6 +13,7 @@ public class HomeActivity extends AppCompatActivity {
     Button myButton4;
     Button myButton5;
     Button myButton6;
+    Button myButton7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +55,15 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(new Intent(HomeActivity.this, NutritionQuizActivity.class));
             }
         });
+        myButton7 = (Button) findViewById(R.id.contactus);
+
+        myButton7.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(HomeActivity.this, ContactUsActivity.class));
+            }
+        });
+
+        //blog
     }
 
 
