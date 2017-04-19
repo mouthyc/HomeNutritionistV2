@@ -1,3 +1,5 @@
+package com.example.home.homenutritionist;
+
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -11,8 +13,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.example.home.homenutritionist.R;
 
 import java.text.DecimalFormat;
 
