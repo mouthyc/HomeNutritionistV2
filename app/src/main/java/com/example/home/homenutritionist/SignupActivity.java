@@ -19,18 +19,24 @@ public class SignupActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signup);
 
-        EditText editText4;
-        EditText editText5;
-
         // setSignupButton();
         myButton1 = (Button) findViewById(R.id.btnSignup2);
 
         myButton1.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
+                EditText e1 = (EditText)findViewById(R.id.editText4);
+                EditText e2 = (EditText)findViewById(R.id.editText5);
+                if(e1.getText().toString().equals( e2.getText().toString())){
+                    startActivity(new Intent(SignupActivity.this, HomeActivity.class));
+                    Toast.makeText(SignupActivity.this,
+                            "Welcome", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(SignupActivity.this,
+                            "The passwords are not same.", Toast.LENGTH_SHORT).show();
+                }
 
-                startActivity(new Intent(SignupActivity.this, HomeActivity.class));
-                Toast.makeText(SignupActivity.this,
-                        "Welcome", Toast.LENGTH_SHORT).show();
+
             }
         });
         // setCancelButton();
