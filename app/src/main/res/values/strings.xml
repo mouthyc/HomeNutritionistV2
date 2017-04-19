@@ -16,4 +16,6 @@
     <string name="title_activity_editicebox">EditiceboxActivity</string>
     <string name="title_activity_suggestrecipe">SuggestrecipeActivity</string>
     <string name="openNewActivity" />
+    <string name="question">Question %1$d of %2$d</string>
+    <string name="result">%1$d guesses, %2$.02f%% correct</string>
 </resources>
