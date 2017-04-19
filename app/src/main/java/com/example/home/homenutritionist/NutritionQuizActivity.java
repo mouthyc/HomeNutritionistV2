@@ -2,7 +2,6 @@ package com.example.home.homenutritionist;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -21,7 +20,7 @@ import java.util.List;
 
 
 public class NutritionQuizActivity extends AppCompatActivity {
-    
+
 
     //for version 2; dynamic change q and asnwers and image
 
@@ -66,7 +65,7 @@ public class NutritionQuizActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.nutritionquiz);
 
         quizFlagNameList = new ArrayList<>();
         shakeAnimation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.incorrect_shake); //***must use getApplicationContext()

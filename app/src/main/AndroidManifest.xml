@@ -25,10 +25,6 @@
             android:label="HomeActivity">
         </activity>
         <activity
-            android:name=".Menu_Calculator_Fragment"
-            android:label="CaloriesCaltorActivity">
-        </activity>
-        <activity
             android:name=".MenuActivity"
             android:label="MenuActivity">
         </activity>
@@ -39,10 +35,6 @@
         <activity
             android:name=".NutritionQuizActivity"
             android:label="NutritionQuizActivity">
-        </activity>
-        <activity
-            android:name=".ContactUsActivity"
-            android:label="ContactusActivity">
         </activity>
     </application>
 
