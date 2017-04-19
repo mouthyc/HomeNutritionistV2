@@ -631,13 +631,13 @@
                         android:src="@drawable/ic_duck2"/>
 
                     <Button
+                        android:id="@+id/duck"
                         android:layout_width="100dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1.2"
-                        android:text="Duck"
-                        android:id="@+id/duck"
                         android:layout_gravity="right"
-                        android:onClick="clickDuck" />
+                        android:layout_weight="1.2"
+                        android:onClick="clickDuck"
+                        android:text="Duck" />
                 </LinearLayout>
 
                 <LinearLayout
