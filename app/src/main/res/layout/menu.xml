@@ -1,11 +1,175 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#ffffffff">
 
-    <TextView
-        android:id="@+id/textView"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="menu" />
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".recipepages">
+
+
+        <TextView
+            android:id="@+id/textView8.1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Nutrition Menu"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView8.1"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView8.1"
+            android:nestedScrollingEnabled="false"
+            android:onClick="buttonOnClick"
+            android:src="@drawable/recipe1" />
+
+        <ImageView
+            android:id="@+id/imageView8.2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_below="@+id/textView8.1"
+            android:layout_centerHorizontal="true"
+            android:onClick="buttonOnClick2"
+            android:src="@drawable/recipe2" />
+
+        <ImageView
+            android:id="@+id/imageView8.3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_above="@+id/textView8.4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:onClick="buttonOnClick3"
+            android:src="@drawable/recipe8" />
+
+        <TextView
+            android:id="@+id/textView8.2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView8.1"
+            android:text="Sweet and sour chicken"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView8.3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView8.2"
+            android:layout_alignStart="@+id/imageView8.2"
+            android:layout_below="@+id/imageView8.2"
+            android:text="Curried Chicken"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView8.4"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView8.3"
+            android:layout_alignStart="@+id/imageView8.3"
+            android:layout_below="@+id/imageView8.2"
+            android:text="Seattle Dutch Babies "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView8.4"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:onClick="buttonOnClick4"
+            android:src="@drawable/recipe4" />
+
+        <ImageView
+            android:id="@+id/imageView8.5"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignLeft="@+id/textView8.3"
+            android:layout_alignStart="@+id/textView8.3"
+            android:layout_centerVertical="true"
+            android:onClick="buttonOnClick5"
+            android:src="@drawable/recipe9" />
+
+        <ImageView
+            android:id="@+id/imageView8.6"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_above="@+id/textView8.6"
+            android:layout_alignLeft="@+id/textView8.4"
+            android:layout_alignStart="@+id/textView8.4"
+            android:onClick="buttonOnClick6"
+            android:src="@drawable/recipe10" />
+
+        <TextView
+            android:id="@+id/textView8.5"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView8.4"
+            android:text="Creamy Chicken Pasta"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView8.6"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView8.5"
+            android:layout_alignStart="@+id/imageView8.5"
+            android:layout_alignTop="@+id/textView8.5"
+            android:text="Western Omelet"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView8.7"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imageView8.6"
+            android:layout_alignStart="@+id/imageView8.6"
+            android:layout_alignTop="@+id/textView8.6"
+            android:text="Japanese Curry"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/textView8.8"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="Bluefin Tuna"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView8.7"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_above="@+id/textView8.8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="buttonOnClick7"
+            android:src="@drawable/recipe7" />
+
+    </RelativeLayout>
 </LinearLayout>
