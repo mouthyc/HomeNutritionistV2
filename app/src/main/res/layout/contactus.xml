@@ -6,85 +6,95 @@
     android:layout_height="match_parent"
     tools:context="com.example.home.homenutritionist.MainActivity">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="0dp"
         android:layout_height="495dp"
-        android:orientation="horizontal"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp"></LinearLayout>
-
-    <LinearLayout
-        android:layout_width="378dp"
-        android:layout_height="493dp"
-        android:orientation="vertical"
-        android:weightSum="1"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="9dp">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="124dp"
-            app:srcCompat="@drawable/loginlogo"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="-25dp" />
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="8dp">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="9dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="158dp"
-                android:orientation="horizontal">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                <EditText
-                    android:id="@+id/editText2"
-                    android:layout_width="278dp"
-                    android:layout_height="165dp"
-                    android:layout_margin="5dp"
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="158dp"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/editText2"
+                        android:layout_width="278dp"
+                        android:layout_height="165dp"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1.02"
+                        android:background="#ffffffff"
+                        android:ems="10"
+                        android:inputType="textEmailAddress|numberPassword"
+                        android:padding="10dp"
+                        android:text="Something to say?"
+                        android:textColor="#ff6c6c6c" />
+
+                    <TextClock
+                        android:id="@+id/textClock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.86" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_weight="1.02"
-                    android:background="#ffffffff"
-                    android:ems="10"
-                    android:inputType="textEmailAddress|numberPassword"
-                    android:padding="10dp"
-                    android:text="Leave us a message here"
-                    android:textColor="#ff6c6c6c" />
+                    android:orientation="vertical">
 
-                <TextClock
-                    android:id="@+id/textClock"
-                    android:layout_width="wrap_content"
+                    <EditText
+                        android:id="@+id/editText12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:text="Arrange a time to consult:" />
+                </LinearLayout>
+
+                <CalendarView
+                    android:id="@+id/calendarView"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.86" />
+                    android:layout_weight="1.02" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:rating="5" />
+
+                <QuickContactBadge
+                    android:id="@+id/quickContactBadge3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="Wanna phone us?"
+                    app:srcCompat="@color/colorPrimaryDark" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Submit" />
 
             </LinearLayout>
 
-            <EditText
-                android:id="@+id/phone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="phone"
-                android:text="Phone us:D" />
-
-            <EditText
-                android:id="@+id/editText10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Arrange a date for consulting" />
-
-            <CalendarView
-                android:id="@+id/calendarView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1.02" />
-
         </LinearLayout>
-
-    </LinearLayout>
+    </ScrollView>
 
 
 </android.support.constraint.ConstraintLayout>

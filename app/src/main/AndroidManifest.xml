@@ -40,6 +40,10 @@
             android:name=".NutritionQuizActivity"
             android:label="NutritionQuizActivity">
         </activity>
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="ContactusActivity">
+        </activity>
     </application>
 
 </manifest>
