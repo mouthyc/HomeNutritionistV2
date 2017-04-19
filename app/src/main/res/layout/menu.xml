@@ -58,10 +58,10 @@
             android:id="@+id/textView8.2"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
+            android:layout_alignBaseline="@+id/textView8.3"
+            android:layout_alignBottom="@+id/textView8.3"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageView8.1"
-            android:text="Sweet and sour chicken"
+            android:text="Healthy beginner"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textSize="15dp" />
 
@@ -72,7 +72,7 @@
             android:layout_alignLeft="@+id/imageView8.2"
             android:layout_alignStart="@+id/imageView8.2"
             android:layout_below="@+id/imageView8.2"
-            android:text="Curried Chicken"
+            android:text="Economy Delight"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textSize="15dp" />
 
@@ -83,7 +83,7 @@
             android:layout_alignLeft="@+id/imageView8.3"
             android:layout_alignStart="@+id/imageView8.3"
             android:layout_below="@+id/imageView8.2"
-            android:text="Seattle Dutch Babies "
+            android:text="Healthy weekend"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textSize="15dp" />
 
@@ -101,9 +101,8 @@
             android:id="@+id/imageView8.5"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:layout_alignLeft="@+id/textView8.3"
+            android:layout_above="@+id/textView8.5"
             android:layout_alignStart="@+id/textView8.3"
-            android:layout_centerVertical="true"
             android:onClick="buttonOnClick5"
             android:src="@drawable/recipe9" />
 
@@ -124,7 +123,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/imageView8.4"
-            android:text="Creamy Chicken Pasta"
+            android:text="Belly killer"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textSize="15dp" />
 
@@ -132,10 +131,10 @@
             android:id="@+id/textView8.6"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageView8.5"
+            android:layout_alignBaseline="@+id/textView8.5"
+            android:layout_alignBottom="@+id/textView8.5"
             android:layout_alignStart="@+id/imageView8.5"
-            android:layout_alignTop="@+id/textView8.5"
-            android:text="Western Omelet"
+            android:text="Hell's diet"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textSize="15dp" />
 
@@ -146,7 +145,7 @@
             android:layout_alignLeft="@+id/imageView8.6"
             android:layout_alignStart="@+id/imageView8.6"
             android:layout_alignTop="@+id/textView8.6"
-            android:text="Japanese Curry"
+            android:text="Meat Lovers"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textSize="15dp" />
 
@@ -157,7 +156,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:text="Bluefin Tuna"
+            android:text="Fit is all I want"
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:textSize="15dp" />
 
