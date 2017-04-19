@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="CaloriesCaltorActivity"
+    tools:context="Menu_Calculator_Fragment"
     android:orientation="horizontal">
 
     <LinearLayout
@@ -233,12 +233,11 @@
                         android:src="@drawable/ic_sugar"/>
 
                     <ImageView
-                        android:id="@+id/imageView2"
                         android:layout_width="70dp"
                         android:layout_height="100dp"
-                        android:layout_marginLeft="-11dp"
                         android:layout_weight="0.8"
-                        android:src="@drawable/ic_sugar2" />
+                        android:layout_marginLeft="-11dp"
+                        android:src="@drawable/ic_sugar2"/>
 
                     <Button
                         android:layout_width="100dp"
@@ -831,7 +830,7 @@
                         android:layout_width="70dp"
                         android:layout_height="100dp"
                         android:layout_weight="0.8"
-                        android:src="@drawable/ic_catfish"/>
+                        android:src="@drawable/ic_fish2"/>
 
                     <ImageView
                         android:layout_width="70dp"

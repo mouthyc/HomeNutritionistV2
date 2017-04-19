@@ -33,7 +33,7 @@ public class HomeActivity extends AppCompatActivity {
 
         myButton4.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                startActivity(new Intent(HomeActivity.this, CaloriesCaltorActivity.class));
+                startActivity(new Intent(HomeActivity.this, Menu_Calculator_Fragment.class));
             }
         });
 
