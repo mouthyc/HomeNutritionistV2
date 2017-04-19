@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView
@@ -18,7 +19,7 @@
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
         android:layout_height="284dp"
-        app:srcCompat="@drawable/nutritionist"
+        app:srcCompat="@drawable/nutrition"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="-105dp" />
 
