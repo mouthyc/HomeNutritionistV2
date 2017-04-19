@@ -17,8 +17,8 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="match_parent"
-        android:layout_height="284dp"
+        android:layout_width="367dp"
+        android:layout_height="267dp"
         app:srcCompat="@drawable/nutrition"
         tools:layout_editor_absoluteX="-16dp"
         tools:layout_editor_absoluteY="-105dp" />
