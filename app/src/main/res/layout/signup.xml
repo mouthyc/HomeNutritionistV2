@@ -20,21 +20,13 @@
         android:layout_marginTop="33dp">
 
         <ImageView
+            android:id="@+id/imageView11"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:id="@+id/imageView11"
-            android:src="@drawable/profilelogo"
             android:layout_marginLeft="10dp"
-            android:contentDescription="@string/title_activity_signup" />
+            android:contentDescription="@string/title_activity_signup"
+            android:src="@drawable/profilelogo" />
 
-        <Button
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:text="Add a profile picture"
-            android:id="@+id/button15"
-            android:layout_marginTop="20dp"
-            android:background="#27AE60"
-            android:layout_marginLeft="22dp" />
     </LinearLayout>
 
     <LinearLayout

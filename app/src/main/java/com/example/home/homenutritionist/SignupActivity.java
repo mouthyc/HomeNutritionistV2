@@ -26,14 +26,15 @@ public class SignupActivity extends AppCompatActivity {
             public void onClick(View v){
                 EditText e1 = (EditText)findViewById(R.id.editText4);
                 EditText e2 = (EditText)findViewById(R.id.editText5);
+                EditText e3 = (EditText)findViewById(R.id.editText3);
                 if(e1.getText().toString().equals( e2.getText().toString())){
                     startActivity(new Intent(SignupActivity.this, HomeActivity.class));
                     Toast.makeText(SignupActivity.this,
-                            "Welcome", Toast.LENGTH_SHORT).show();
+                            "Welcome " + e3.getText(), Toast.LENGTH_SHORT).show();
                 }
                 else{
                     Toast.makeText(SignupActivity.this,
-                            "The passwords are not same.", Toast.LENGTH_SHORT).show();
+                            "The passwords are not the same.", Toast.LENGTH_SHORT).show();
                 }
 
 
