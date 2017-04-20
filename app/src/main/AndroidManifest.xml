@@ -40,6 +40,10 @@
             android:name=".Menu_Calculator_Fragment"
             android:label="Calories Calculator">
         </activity>
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="ContactUSActivity">
+        </activity>
     </application>
 
 </manifest>
