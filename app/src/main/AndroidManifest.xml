@@ -18,23 +18,31 @@
         </activity>
         <activity
             android:name=".SignupActivity"
-            android:label="SignupActivity">
+            android:label="Sign Up">
         </activity>
         <activity
             android:name=".HomeActivity"
-            android:label="HomeActivity">
+            android:label="Home">
         </activity>
         <activity
             android:name=".MenuActivity"
-            android:label="MenuActivity">
+            android:label="Menu">
         </activity>
         <activity
             android:name=".NutritionistBlogActivity"
-            android:label="NutritionistBlogActivity">
+            android:label="Nutritionist Blog">
         </activity>
         <activity
             android:name=".NutritionQuizActivity"
-            android:label="NutritionQuizActivity">
+            android:label="Nutrition Quiz">
+        </activity>
+        <activity
+            android:name=".Menu_Calculator_Fragment"
+            android:label="Calories Calculator">
+        </activity>
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="ContactUSActivity">
         </activity>
     </application>
 

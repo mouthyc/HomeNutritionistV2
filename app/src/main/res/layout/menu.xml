@@ -48,11 +48,10 @@
             android:id="@+id/imageView8.3"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:layout_above="@+id/textView8.4"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
             android:onClick="buttonOnClick3"
-            android:src="@drawable/recipe8" />
+            android:src="@drawable/recipe8"
+            android:layout_below="@+id/textView8.1"
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:id="@+id/textView8.2"
@@ -110,11 +109,10 @@
             android:id="@+id/imageView8.6"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:layout_above="@+id/textView8.6"
-            android:layout_alignLeft="@+id/textView8.4"
-            android:layout_alignStart="@+id/textView8.4"
             android:onClick="buttonOnClick6"
-            android:src="@drawable/recipe10" />
+            android:src="@drawable/recipe10"
+            android:layout_above="@+id/textView8.6"
+            android:layout_alignParentEnd="true" />
 
         <TextView
             android:id="@+id/textView8.5"
