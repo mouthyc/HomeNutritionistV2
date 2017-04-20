@@ -26,7 +26,7 @@
         </activity>
         <activity
             android:name=".MenuActivity"
-            android:label="Menu">
+            android:label="Subscription Menu">
         </activity>
         <activity
             android:name=".NutritionistBlogActivity"
@@ -42,7 +42,15 @@
         </activity>
         <activity
             android:name=".ContactUsActivity"
-            android:label="ContactUSActivity">
+            android:label="Contact Us">
+        </activity>
+        <activity
+            android:name=".MenuInfo1Activity"
+            android:label="Healthy Beginner">
+        </activity>
+        <activity
+            android:name=".Subsconfirm"
+            android:label="Subscription">
         </activity>
     </application>
 
