@@ -34,27 +34,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="Day 1: Fried Chinese Lettuce with Traditional Belacan"
+        android:text="Day 1: Coconut Milk with Fresh Vegetable    "
         android:textStyle="bold"/>
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="INGREDIENTS: chinese lettuce, belacan, sugar, sea salt; CALORIES: 480" />
+        android:text="INGREDIENTS: soup, coconut milk, carrot, beans, pumpkin, mushroom, sea salt.; CALORIES: 630" />
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="Day 2: Pork Belly with Organic White Radish  "
+        android:text="Day 2: Organic Chinese Wolfberry Leaves and Pork Slices Soup with Salted Egg  "
         android:textStyle="bold"/>
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="INGREDIENTS：Organic White Radish, Pork Belly, Homemade Sauce Combo, Chinese Onion; CALORIES: 720" />
+        android:text="INGREDIENTS：water, organic Chinese wolfberry leaves, fresh pork slices, salted egg, ginger, peppercorn, sea salt; CALORIES: 620" />
 
 
     <Button
