@@ -24,148 +24,81 @@
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:textSize="30dp" />
 
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView8.5"
+            android:layout_below="@+id/imageView8.1"
+            android:layout_marginTop="14dp"
+            android:text="Healthy Beginner" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_alignParentEnd="true"
+            android:text="Healthy Weekend" />
+
         <ImageView
             android:id="@+id/imageView8.1"
             android:layout_width="110dp"
             android:layout_height="110dp"
+            android:layout_alignStart="@+id/textView8.7"
+            android:layout_below="@+id/textView8.1"
+            android:layout_marginStart="30dp"
             android:nestedScrollingEnabled="false"
             android:onClick="clickphoto"
-            android:src="@drawable/recipe1"
-            android:layout_below="@+id/textView8.1"
-            android:layout_alignParentStart="true" />
-
-        <ImageView
-            android:id="@+id/imageView8.2"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_below="@+id/textView8.1"
-            android:layout_centerHorizontal="true"
-            android:onClick="clickphoto"
-            android:src="@drawable/recipe2" />
+            android:src="@drawable/recipe1" />
 
         <ImageView
             android:id="@+id/imageView8.3"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:onClick="clickphoto3"
-            android:src="@drawable/recipe8"
+            android:layout_alignStart="@+id/imageView8.7"
             android:layout_below="@+id/textView8.1"
-            android:layout_alignParentEnd="true" />
-
-        <TextView
-            android:id="@+id/textView8.2"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/textView8.3"
-            android:layout_alignBottom="@+id/textView8.3"
-            android:layout_alignParentStart="true"
-            android:text="Healthy beginner"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="15dp" />
-
-        <TextView
-            android:id="@+id/textView8.3"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageView8.2"
-            android:layout_alignStart="@+id/imageView8.2"
-            android:layout_below="@+id/imageView8.2"
-            android:text="Economy Delight"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="15dp" />
-
-        <TextView
-            android:id="@+id/textView8.4"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageView8.3"
-            android:layout_alignStart="@+id/imageView8.3"
-            android:layout_below="@+id/imageView8.2"
-            android:text="Healthy weekend"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="15dp" />
+            android:onClick="clickphoto3"
+            android:src="@drawable/recipe8" />
 
         <ImageView
             android:id="@+id/imageView8.4"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/button4"
+            android:layout_below="@+id/button2"
+            android:layout_marginTop="72dp"
             android:onClick="clickphoto"
             android:src="@drawable/recipe4" />
-
-        <ImageView
-            android:id="@+id/imageView8.5"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:layout_above="@+id/textView8.5"
-            android:layout_alignStart="@+id/textView8.3"
-            android:onClick="clickphoto"
-            android:src="@drawable/recipe9" />
-
-        <ImageView
-            android:id="@+id/imageView8.6"
-            android:layout_width="110dp"
-            android:layout_height="110dp"
-            android:onClick="clickphoto"
-            android:src="@drawable/recipe10"
-            android:layout_above="@+id/textView8.6"
-            android:layout_alignParentEnd="true" />
-
-        <TextView
-            android:id="@+id/textView8.5"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageView8.4"
-            android:text="Belly killer"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="15dp" />
-
-        <TextView
-            android:id="@+id/textView8.6"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/textView8.5"
-            android:layout_alignBottom="@+id/textView8.5"
-            android:layout_alignStart="@+id/imageView8.5"
-            android:text="Hell's diet"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="15dp" />
-
-        <TextView
-            android:id="@+id/textView8.7"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/imageView8.6"
-            android:layout_alignStart="@+id/imageView8.6"
-            android:layout_alignTop="@+id/textView8.6"
-            android:text="Meat Lovers"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="15dp" />
-
-        <TextView
-            android:id="@+id/textView8.8"
-            android:layout_width="130dp"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:text="Fit is all I want"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:textSize="15dp" />
 
         <ImageView
             android:id="@+id/imageView8.7"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:layout_above="@+id/textView8.8"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+            android:layout_alignStart="@+id/button3"
+            android:layout_alignTop="@+id/imageView8.4"
+            android:layout_marginStart="19dp"
             android:onClick="clickphoto7"
             android:src="@drawable/recipe7" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Belly Killer"
+            android:layout_below="@+id/imageView8.4"
+            android:layout_alignEnd="@+id/imageView8.1"
+            android:layout_marginTop="18dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Economy Delight"
+            android:layout_alignBaseline="@+id/button4"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignStart="@+id/button3" />
 
     </RelativeLayout>
 </LinearLayout>
