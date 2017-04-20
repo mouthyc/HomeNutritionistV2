@@ -49,6 +49,18 @@
             android:label="Healthy Beginner">
         </activity>
         <activity
+            android:name=".MenuInfo2Activity"
+            android:label="Healthy Weekend">
+        </activity>
+        <activity
+            android:name=".MenuInfo3Activity"
+            android:label="Belly Killer">
+        </activity>
+        <activity
+            android:name=".MenuInfo4Activity"
+            android:label="Economy Delight">
+        </activity>
+        <activity
             android:name=".Subsconfirm"
             android:label="Subscription">
         </activity>
