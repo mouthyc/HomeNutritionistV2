@@ -138,7 +138,7 @@
     <Button
         android:id="@+id/confirmbtn"
         android:layout_width="259dp"
-        android:layout_height="45dp"
+        android:layout_height="48dp"
         android:text="Confirm!"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="63dp"
