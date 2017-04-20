@@ -34,40 +34,45 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="Day 1: Fried Chinese Lettuce with Traditional Belacan"
-        android:textStyle="bold"/>
+        android:text="Day 1: Stir Fry Dried Shrimp and Cripy Fish with Local Organic Chinese Chives"
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="INGREDIENTS: chinese lettuce, belacan, sugar, sea salt; CALORIES: 480" />
+        android:text="INGREDIENTS: chinese lettuce, belacan, sugar, sea salt; CALORIES: 500" />
+
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="Day 2: Pork Belly with Organic White Radish  "
-        android:textStyle="bold"/>
+        android:text="Day 2: Spinach with Preserved Sausage Mince  "
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="INGREDIENTS：Organic White Radish, Pork Belly, Homemade Sauce Combo, Chinese Onion; CALORIES: 720" />
+        android:text="INGREDIENTS：Organic White Radish, Pork Belly, Homemade Sauce Combo, Chinese Onion; CALORIES: 600" />
+
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="Day 3: Smoky Beef Cube with Black Pepper    "
-        android:textStyle="bold"/>
+        android:text="Day 3: Braise Mandarinfish w/Wolfberry Leaves and Seeds  "
+        android:textStyle="bold" />
+
     <TextView
         android:id="@+id/textView10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0.06"
-        android:text="INGREDIENTS: Beef Cube, Pea, Black Pepper, Sweet Pepper; CALORIES: 560" />
+        android:text="INGREDIENTS: Beef Cube, Pea, Black Pepper, Sweet Pepper; CALORIES: 280" />
 
     <Button
         android:id="@+id/subscribe1"
