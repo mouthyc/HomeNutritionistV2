@@ -21,7 +21,7 @@ public class Subsconfirm extends AppCompatActivity {
 
         Confirmback.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(Subsconfirm.this, "Thank you for the subs! Our consultant will contact you soon.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Subsconfirm.this, "Thank you for the subs! Our consultant will contact you soon.", Toast.LENGTH_LONG).show();
 
                 startActivity(new Intent(Subsconfirm.this, HomeActivity.class));
             }

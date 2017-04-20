@@ -20,10 +20,28 @@ public class MenuActivity extends AppCompatActivity {
         setContentView(R.layout.menu);
 
         healthybeginner = (Button) findViewById(R.id.button2);
+        healthyweekend = (Button) findViewById(R.id.button3);
+        bellykiller = (Button) findViewById(R.id.button4);
+        economydelight = (Button) findViewById(R.id.button5);
 
         healthybeginner.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(MenuActivity.this, MenuInfo1Activity.class));
+            }
+        });
+        healthyweekend.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MenuActivity.this, MenuInfo2Activity.class));
+            }
+        });
+        bellykiller.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MenuActivity.this, MenuInfo3Activity.class));
+            }
+        });
+        economydelight.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                startActivity(new Intent(MenuActivity.this, MenuInfo4Activity.class));
             }
         });
     }
