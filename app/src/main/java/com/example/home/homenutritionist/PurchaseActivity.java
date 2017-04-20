@@ -8,14 +8,10 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-public class MenuActivity extends AppCompatActivity {
+public class PurchaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.menu);
-    }
-
-    public void clickphoto(View v) {
-        startActivity(new Intent(MenuActivity.this, PurchaseActivity.class));
+        setContentView(R.layout.purchase);
     }
 }

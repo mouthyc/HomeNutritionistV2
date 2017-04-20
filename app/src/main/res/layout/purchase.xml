@@ -8,35 +8,36 @@
     android:weightSum="1"
     android:id="@+id/mintstore">
 
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:text="Thank you for subscribing!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
+
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="fill_parent"
         android:layout_height="130dp"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="33dp"
         android:background="#273e675a"
-        android:id="@+id/linearLayout"
         android:orientation="horizontal"
-        android:layout_marginTop="33dp">
-
-        <ImageView
-            android:id="@+id/imageView11"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_marginLeft="10dp"
-            android:contentDescription="@string/title_activity_signup"
-            android:src="@drawable/profilelogo" />
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
 
     </LinearLayout>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="fill_parent"
         android:layout_height="219dp"
+        android:background="#273e675a"
+        android:orientation="horizontal"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:weightSum="1"
-        android:background="#273e675a">
+        android:weightSum="1">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -81,54 +82,21 @@
         </LinearLayout>
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="175dp"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
 
             <EditText
-                android:id="@+id/editText3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:paddingTop="18dp"
-                android:text="name"
-                android:textColor="#47000000"
-                android:textSize="20sp" />
-
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                android:ems="10"
-                android:id="@+id/editText4"
-                android:paddingTop="20dp"
-                android:textSize="20sp"
-                android:textColor="#47000000"
-                android:text="password" />
-
-            <EditText
-                android:id="@+id/editText5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:ems="10"
-                android:inputType="textPassword"
-                android:paddingTop="20dp"
-                android:text="password"
-                android:textColor="#47000000"
-                android:textSize="20sp" />
-
-            <EditText
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:ems="10"
                 android:id="@+id/editText6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textEmailAddress"
                 android:paddingTop="20dp"
-                android:textSize="20sp"
+                android:text="xxx@xxx.com"
                 android:textColor="#47000000"
-                android:text="xxx@xxx.com" />
+                android:textSize="20sp" />
         </LinearLayout>
 
     </LinearLayout>

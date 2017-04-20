@@ -44,6 +44,10 @@
             android:name=".ContactUsActivity"
             android:label="ContactUSActivity">
         </activity>
+        <activity
+            android:name=".PurchaseActivity"
+            android:label="PurchaseActivity">
+        </activity>
     </application>
 
 </manifest>
