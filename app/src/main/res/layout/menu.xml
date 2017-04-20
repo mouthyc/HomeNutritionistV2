@@ -28,12 +28,11 @@
             android:id="@+id/imageView8.1"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_below="@+id/textView8.1"
             android:nestedScrollingEnabled="false"
-            android:onClick="buttonOnClick"
-            android:src="@drawable/recipe1" />
+            android:onClick="clickphoto"
+            android:src="@drawable/recipe1"
+            android:layout_below="@+id/textView8.1"
+            android:layout_alignParentStart="true" />
 
         <ImageView
             android:id="@+id/imageView8.2"
@@ -41,14 +40,14 @@
             android:layout_height="110dp"
             android:layout_below="@+id/textView8.1"
             android:layout_centerHorizontal="true"
-            android:onClick="buttonOnClick2"
+            android:onClick="clickphoto"
             android:src="@drawable/recipe2" />
 
         <ImageView
             android:id="@+id/imageView8.3"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:onClick="buttonOnClick3"
+            android:onClick="clickphoto3"
             android:src="@drawable/recipe8"
             android:layout_below="@+id/textView8.1"
             android:layout_alignParentEnd="true" />
@@ -93,7 +92,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
-            android:onClick="buttonOnClick4"
+            android:onClick="clickphoto"
             android:src="@drawable/recipe4" />
 
         <ImageView
@@ -102,14 +101,14 @@
             android:layout_height="110dp"
             android:layout_above="@+id/textView8.5"
             android:layout_alignStart="@+id/textView8.3"
-            android:onClick="buttonOnClick5"
+            android:onClick="clickphoto"
             android:src="@drawable/recipe9" />
 
         <ImageView
             android:id="@+id/imageView8.6"
             android:layout_width="110dp"
             android:layout_height="110dp"
-            android:onClick="buttonOnClick6"
+            android:onClick="clickphoto"
             android:src="@drawable/recipe10"
             android:layout_above="@+id/textView8.6"
             android:layout_alignParentEnd="true" />
@@ -165,7 +164,7 @@
             android:layout_above="@+id/textView8.8"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:onClick="buttonOnClick7"
+            android:onClick="clickphoto7"
             android:src="@drawable/recipe7" />
 
     </RelativeLayout>
