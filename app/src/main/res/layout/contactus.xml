@@ -68,14 +68,19 @@
                 <CalendarView
                     android:id="@+id/calendarView"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1.02" />
+                    android:layout_height="282dp" />
 
                 <RatingBar
                     android:id="@+id/ratingBar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:rating="2" />
+
+                <Button
+                    android:id="@+id/callusla"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Call us now!" />
 
                 <Button
                     android:id="@+id/submitla"
